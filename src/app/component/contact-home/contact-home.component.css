@@ -1,0 +1,19 @@
+.contenido-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    color: white;
+}
+.contenido-contacto div{
+    margin: 2rem 0;
+}
+.contenido-contacto .botones{
+    background-color: #FF9207;
+    padding: 1.6rem;
+    color: white;
+    text-decoration: none;
+}
+.contenido-contacto .botones:hover{
+    background-color: #C46F01;
+}

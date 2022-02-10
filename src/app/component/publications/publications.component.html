@@ -1,0 +1,37 @@
+<div class="container">
+    <div class="anuncios">
+        <h2 class="fw-300 text-center">Casas y Departamentos en Venta</h2>
+        <div class="items-anuncios">
+            <div class="items" *ngFor="let item of data">
+                <div class="img">
+                    <img [src]="item.img" alt="">
+                </div>
+                <div class="description padding-5">
+                    <h3 class="fw-300">{{ item.title }}</h3>
+                    <p>{{ item.description }}</p>
+                    <p class="price">{{ item.price }}</p>
+                </div>
+                <div class="space padding-5">
+                    <div>
+                        <img src="./assets/img/icono_wc.svg" alt="WC">
+                        <p>{{ item.bathrooms }}</p>
+                    </div>
+                    <div>
+                        <img src="./assets/img/icono_estacionamiento.svg" alt="">
+                        <p>{{ item.parking }}</p>
+                    </div>
+                    <div>
+                        <img src="./assets/img/icono_dormitorio.svg" alt="">
+                        <p>{{ item.bedroom }}</p>
+                    </div>
+                </div>
+                <div class="boton">
+                    <a [routerLink]="['/infopublications', item.id]" routerLinkActive="router-link-active" >Ver propiedad</a>
+                </div>
+            </div>
+        </div>
+        <div class = "otherbotton" *ngIf="botton == true">
+            <a (click) = "irPublications()">VER TODAS</a>
+        </div>
+    </div> 
+</div> 

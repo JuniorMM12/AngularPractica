@@ -1,0 +1,42 @@
+<h1 class="text-center fw-300">{{ data.title }}</h1>
+
+<section class=" " id="img-info">
+    <!-- <img [src]="data.img" alt=""> -->
+</section>
+<main class="container">
+    <div class="price-space">
+        <div><p>$ {{ data.price }}</p></div>
+        <div class="list-space">
+            <div class="items-space">
+                <div>
+                    <img src="../../../assets/img/icono_dormitorio.svg" alt="">
+                </div> 
+                <div>
+                    {{ data.bathrooms}}
+                </div>
+            </div>
+            <div class="items-space">
+                <div>
+                    <img src="../../../assets/img/icono_estacionamiento.svg" alt="">
+                </div>
+                <div>
+                    {{ data.parking }}
+                </div>
+            </div>
+            <div class="items-space">
+                <div>
+                    <img src="../../../assets/img/icono_wc.svg" alt="">
+                </div>
+                <div>
+                    {{ data.bedroom }}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="description">
+        <p>
+            {{ data.technical_description }}
+        </p>
+    </div>
+</main>
+  

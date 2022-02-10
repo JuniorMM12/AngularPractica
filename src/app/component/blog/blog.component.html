@@ -1,0 +1,15 @@
+
+<div class="blog-home">
+    <h2 class=" text-center fw-300">Nuestro Blog</h2>
+    <div class="items" *ngFor="let item of data">
+        <div class="img">
+            <img [src]="item.img" alt="">
+        </div>
+        <div class="description-comentario">
+            <h2 class="no-margin">{{ item.title }}</h2>
+            <p class="no-margin">Escrito por: <strong>{{ item.date | date:'shortDate'}}</strong> Por: <strong>{{ item.by }}</strong></p>
+            <p class="no-margin">{{ item.description }}</p>
+        </div>
+    </div>
+</div>
+ 

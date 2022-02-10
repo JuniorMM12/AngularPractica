@@ -1,0 +1,24 @@
+ .testimoniales .testimonio{
+    background-color: #62B44C;
+    max-height: 40rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    color: white;
+ }
+ .testimoniales .testimonio blockquote::before{
+    content: '';
+    background-image: url(./../../../assets/img/comilla.svg);
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: -1rem;
+    left: -5rem;
+ }
+ .testimoniales .testimonio p{
+    text-align: right;
+ }
+ .testimoniales .testimonio blockquote{
+    position: relative;
+    font-size: 2.4rem;
+    line-height: 2;
+ }

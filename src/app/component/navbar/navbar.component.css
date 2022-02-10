@@ -1,0 +1,32 @@
+.navbar{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navbar h1{
+    padding-bottom: 2rem;
+    color: white;
+    width: 60rem;
+    font-size: 3.2rem;
+    line-height: 2;
+}
+.navbar .barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.8rem;
+}
+.navbar .barra nav a{
+    color: white;
+    margin-right: 1rem;
+    font-size: 2rem;
+    list-style: none;
+    text-decoration: none;
+}
+.navbar .barra nav a:hover{
+    color: #6FF44B;
+}
+.navbar .barra nav a:last-of-type{
+    margin-right: 0;
+}

@@ -1,0 +1,32 @@
+
+.blog-home .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.blog-home .img{
+   flex: 0 0 calc(40% - 1rem);
+}
+.blog-home .description-comentario{
+    flex: 0 0 calc(60% - 1rem);
+}
+.blog-home .description-comentario h2{
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+.blog-home .description-comentario h2::after{
+    content: '';
+    display: block;
+    width: 15rem;
+    height: .5rem;
+    margin-top: 1rem;
+    background-color: #019A26;
+}
+.blog-home .description-comentario p{
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+.blog-home .description-comentario p strong{
+    color: #E2830A;
+}

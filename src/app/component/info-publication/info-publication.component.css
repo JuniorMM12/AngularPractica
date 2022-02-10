@@ -1,0 +1,32 @@
+.container{
+   width: 65%;
+}
+.price-space{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 2rem;
+}
+.price-space p{
+   font-size: 2rem;
+   color: #00A726;
+}
+.price-space .list-space {
+   display: flex;
+   font-size: 2rem;
+}
+.price-space .list-space .items-space{
+   margin-right: 2rem;
+}
+.price-space .list-space .items-space{
+   display: flex;
+   align-items: center;
+   margin-right: 4rem;
+}
+.price-space .list-space .items-space div{
+   margin-right: 1rem;
+}
+.description p{
+
+   font-size: 1.8rem;
+   line-height: 2;
+}

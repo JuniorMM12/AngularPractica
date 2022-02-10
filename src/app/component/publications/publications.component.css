@@ -1,0 +1,45 @@
+.anuncios .items-anuncios{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.anuncios .items-anuncios .items{
+    flex: 0 0 calc(33.3% - 1rem);
+    background-color: #F4F4F4;
+    border: .1rem solid #DEDEDE;
+    margin-top: 1rem;
+}
+.anuncios .items-anuncios .items .description p{
+    font-size: 1.6rem;
+}
+.anuncios .items-anuncios .items .description .price{
+    color: #00A726;
+}
+.anuncios .items-anuncios .items .space{
+    display: flex;
+    justify-content: space-evenly;
+}
+.anuncios .items-anuncios .items .space div{
+    display: flex;
+}
+.anuncios .items-anuncios .items .space div img{
+    margin-right: 1rem;
+}
+.anuncios .items-anuncios .items .boton a:hover{
+    background-color: #E68201;
+}
+.anuncios .otherbotton{
+    display: flex;
+    justify-content: flex-end;
+    margin: 2rem 0;
+}
+.anuncios .otherbotton a {
+    padding: 1.8rem;
+    background-color: #00A726;
+    color: white;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+.anuncios .otherbotton a:hover{
+    background-color: #00891F;
+}

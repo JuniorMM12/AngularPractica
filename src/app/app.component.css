@@ -1,0 +1,16 @@
+
+.site-header.inicio{
+    background-image: url("../assets/img/header.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 600px;
+}
+.site-header {
+    background-color: #323232;
+    padding: 1rem 0 3rem 0;
+}
+footer{
+    background-color: #323232;
+    color: white;
+} 

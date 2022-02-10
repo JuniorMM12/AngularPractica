@@ -1,0 +1,14 @@
+.about{
+    text-align: center;
+}
+.about .items-information{
+    display: flex;
+    justify-content: space-between;
+}
+.about .items-information .item{
+    flex: 0 0 calc(33.3% - 1rem);
+}
+.about .items-information .item h2{
+    text-transform: uppercase;
+    font-size: 2.6rem;
+} 

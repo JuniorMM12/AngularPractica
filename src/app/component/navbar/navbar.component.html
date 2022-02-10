@@ -1,0 +1,16 @@
+<div class="container" id="container">
+    <div class="navbar">
+        <div class="barra">
+            <a [routerLink] = "['home']" (click)="i(true)">
+                <img src="./assets/img/logo.svg" alt="Logo bienesraises">
+            </a>
+            <nav>
+                <a [routerLink] = "['about']" id = "items" (click)="i(false)">Nosotros</a>
+                <a [routerLink] = "['publications']" id = "items" (click)="i(false)">Anuncios</a>
+                <a [routerLink]="['blog-page']">Blog</a>
+                <a href="">Contacto</a> 
+            </nav>
+        </div>
+        <h1 id="titulo" *ngIf="mostrar == true">Venta de Casa y Departamentos Exclusivos de Lujo</h1>   
+    </div>
+</div> 

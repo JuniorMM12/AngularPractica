@@ -1,0 +1,20 @@
+/*Header*/
+
+
+.contacto{
+    background-image: url("../../../assets/img/encuentra.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 40rem;
+}
+
+.blog-testimonios{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-testimonios .articulos{
+    flex: 0 0 60%;
+}
+.blog-testimonios .testimonios{
+    flex: 0 0 calc(40% - 2rem);
+}
